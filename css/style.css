@@ -1,0 +1,68 @@
+header {
+ 
+ padding: 5px;
+}
+
+header ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ }
+ 
+ header li a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: white;
+  text-alignment: center;
+  
+  }
+  header li {
+  float: left;
+  }
+  .active {
+  background-color: #4CAF50;
+  }
+  
+  .pageContent {
+	
+  }
+  p {
+  color: blue;
+  }
+  form {
+	border:3px solid #f1f1f1;
+  }
+  
+  input {
+	width:100%;
+	display:inline-block;
+	padding: 12px 20px;
+	margin:8px 0;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.upload{
+  text-align:center;
+}
+  
+.imgContainer{
+  text-align:center;
+  margin:24px 0 12px;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}

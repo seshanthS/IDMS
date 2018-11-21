@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+	TODO:
+	Change web3 to current Provider.
+	check uploadAvatar function in script.js
+	
+	make HomeScreen
+	make verifyScreen
+	
+	COMPLETED:
+	upload to blockchain
+	-->
+  <head>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript" src="dist/ipfs.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="dist/buffer.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="dist/web3.min.js"></script>
+	<script type="text/javascript" src="dist/jquery-3.3.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+	
+<script type="text/javascript">
+ /* const address;
+	const abi;
+	const contract;
+	const ipfs = window.IpfsApi('localhost',port);
+	*/
+$(document).ready(function(){
+
+  initialize();
+  $("#pageContent").load("addDetails.html");
+  web3.eth.getBalance("0x9B86Bd10F042731dD20Ed57874C9bE6112C73769")
+ .then(function(balance){
+  console.log(balance)});
+
+   });
+</script>
+	<header>
+	  <ul>
+		<li><a href="#" id="homePage">Home</a></li>
+		<li><a href="#" id="settingsPage">Settings</a></li>
+	  </ul>
+	</header>
+	<div id = "pageContent"></div>
+	
+ 
+
+  </body>
+</html>		
